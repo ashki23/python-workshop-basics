@@ -20,7 +20,7 @@ The Python workshop is designed to introduce the fundamentals of programming in 
 
 ### Install Python  
 To install the latest version of Python on your system, follow these instructions:  
-- **Windows**: Refer to [section 4.1.1](https://docs.python.org/3/using/windows.html#installation-steps) in the Python documentation.  
+- **Windows**: Refer to [section 4.1.1](https://docs.python.org/3/using/windows.html#installation-steps) in the Python documentation. Be sure to check the option "Add Python to PATH" during installation. Alternatively, if you have [WSL](https://learn.microsoft.com/en-us/windows/wsl/about) installed, you can use Python in WSL. 
 - **macOS**: Follow [section 5.1.1](https://docs.python.org/3/using/mac.html#installation-steps). Alternatively, if you have a package manager like [Homebrew](https://brew.sh), you can use it to install Python.  
 - **Linux**: Python is typically preinstalled on most Linux distributions.  
 
