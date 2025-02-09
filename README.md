@@ -26,7 +26,9 @@ To install the latest version of Python on your system, follow these instruction
 - **Windows**: Refer to [section 4.1.1](https://docs.python.org/3/using/windows.html#installation-steps) in the Python documentation. Be sure to check the option "Add Python to PATH" during installation. Alternatively, if you have [WSL](https://learn.microsoft.com/en-us/windows/wsl/about) installed, you can use Python in WSL. 
 
 ### Install Visual Studio Code  
-Download and install Visual Studio Code from [this link](https://code.visualstudio.com/Download). If you choose to run your Python code on cloud services like GCP or AWS, installing VS Code is unnecessary. Instead, you should be familiar with terminal-based text editors like Nano, Emacs, or Vim.
+Download and install Visual Studio Code from [this link](https://code.visualstudio.com/Download). We are using VS Code as an integrated development environment (IDE) to create scripts, execute terminal commands, and manage files all in one place.
+
+If you choose to run your Python code on a Linux terminal or cloud services like GCP or AWS, installing VS Code is unnecessary. Instead, you should be familiar with a terminal-based text editor like Nano, Emacs, or Vim.
 
 ## Python virtual environments
 To run Python projects, it's best practice to create a dedicated virtual environment for each project to manage dependencies. To create a virtual environment (called `.venv`), use the following commands in the terminal:
@@ -51,7 +53,7 @@ source .venv/bin/activate
 .\.venv\Scripts\Activate.ps1
 ```
 
-Note that you can also use VS Code to create and activate the virtual environment.
+Alternatively, you can use VS Code to create and activate the virtual environments (see [here](https://code.visualstudio.com/docs/python/environments)).
 
 
 
