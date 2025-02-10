@@ -53,7 +53,40 @@ source .venv/bin/activate
 .\.venv\Scripts\Activate.ps1
 ```
 
-Alternatively, you can use VS Code to create and activate the virtual environments (see [here](https://code.visualstudio.com/docs/python/environments)).
+Alternatively, you can use VS Code to create and activate the virtual environments (see [here](https://code.visualstudio.com/docs/python/environments)). To remove a virtual environment, either run `rm -rf .venv` in the terminal or manually delete the `.venv` folder from the file explorer.
 
+After activating the environment, we can use the `pip` package manager to manage Python packages. The following commands can be used in the terminal to install, upgrade, or uninstall packages:
 
+```bash
+# Install a package
+pip install <pkg-name>
 
+# Install multiple packages using a requirements file
+pip install -r requirements.txt 
+
+# Upgrade a package
+pip install --upgrade <pkg-name>
+
+# Uninstall a package
+pip uninstall <pkg-name>
+
+# List installed packages
+pip list
+
+# Create a requirements file from the installed packages
+pip freeze > requirements.txt 
+
+# Cache management
+pip cache info # view cache information 
+pip cache purge # remove cache files
+```
+
+Make sure to replace `<pkg-name>` with the actual package name. For testing, let's install and uninstall the `sampleproject` package:
+
+```bash
+# Install
+pip install sampleproject
+7
+# Uninstall
+pip uninstall sampleproject
+```
