@@ -4,17 +4,18 @@
 
 The workshop is designed to introduce the fundamentals of Python programming in an engaging and interactive way. Participants will learn key concepts such as variables, data types, basic operations, and control flow structures like loops and conditional statements. They will also explore essential data structures such as lists and dictionaries, and understand how to write reusable code using functions. The workshop includes hands-on exercises and a mini-project. By the end of the session, participnets will have the foundational skills to start coding confidently and continue exploring Python independently.
 
-### **Main topics**  
-1. **Introduction to Python**: Why Python, setting up the environment.  
-2. **Variables and Data Types**: Strings, integers, floats, booleans.  
-3. **Input/Output and Basic Operations**: User input, print statements, arithmetic, and comparisons.  
-4. **Control Flow**: `if`, `else`, and `elif` statements.  
-5. **Loops**: `for` and `while` loops.  
-6. **Data Structures**: Lists and dictionaries.  
-7. **Functions**: Defining, using parameters, and return values.  
-8. **Debugging**: Identifying and fixing common programming errors.  
-9. **Generative AI**: A brief introduction to leveraging AI tools like ChatGPT to assist with coding and problem-solving.  
-10. **Mini-Project**: Practical application of learned concepts.
+### **Main topics** 
+In this workshop, we cover the following topics from [The Python Tutorial](https://docs.python.org/3/tutorial/index.html).
+
+1. **Introduction and Set up**: Setting up the environment, and how to run Python (section [2](https://docs.python.org/3/tutorial/interpreter.html) and [12](https://docs.python.org/3/tutorial/venv.html)).
+2. **Variables and Data Types**: Numbers, text, lists, arithmetic, and comparisons (section [3](https://docs.python.org/3/tutorial/introduction.html)).
+3. **Control Flow Tools**: `if`, `else`, and `elif` statements and `for` and `while` loops (section [4](https://docs.python.org/3/tutorial/controlflow.html)).
+4. **Functions**: Defining, using parameters, and return values (section [4](https://docs.python.org/3/tutorial/controlflow.html)).
+5. **Data Structures**: Lists, dictionaries, tuples, and sets (section [5](https://docs.python.org/3/tutorial/datastructures.html)).
+6. **Modules**: Import modules from the standard library, installed packages, or custom Python scripts (section [6](https://docs.python.org/3/tutorial/modules.html)).
+7. **Input and Output**: Print, f-strings, strings, open, read and write functions (section [7](https://docs.python.org/3/tutorial/inputoutput.html)).
+8. **Generative AI**: A brief introduction to leveraging AI tools like ChatGPT to assist with coding and problem-solving.  
+9. **Mini-Project**: Practical application of learned concepts.
 
 ## Setup the environment
 
@@ -50,7 +51,7 @@ To actiavte the `.venv` virtual environment use:
 source .venv/bin/activate
 
 # Windows
-.\.venv\Scripts\Activate.ps1
+.venv\Scripts\activate
 ```
 
 Alternatively, you can use VS Code to create and activate the virtual environments (see [here](https://code.visualstudio.com/docs/python/environments)). To remove a virtual environment, either run `rm -rf .venv` in the terminal or manually delete the `.venv` folder from the file explorer.
@@ -86,7 +87,19 @@ Make sure to replace `<pkg-name>` with the actual package name. For testing, let
 ```bash
 # Install
 pip install sampleproject
-7
+
 # Uninstall
 pip uninstall sampleproject
 ```
+
+## Using Python
+
+There are two primary ways to use Python:
+
+1. **Interactive Mode:** Open your terminal and type `python` or `python3` to launch the Python interpreter interactively.
+
+2. **Running a Python Script:** Write your Python code in a script file, then execute it from the terminal using:
+
+   ```bash
+   python3 script.py
+   ```
