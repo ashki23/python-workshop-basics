@@ -36,7 +36,7 @@ text = "# This is not a comment because it's inside quotes."
 # 128
 
 # Tip: In interactive mode, the last printed expression is assigned to the variable _.
-_ * 2
+# _ * 2
 # 256
 
 ## Create a variable and assign a number
@@ -58,11 +58,6 @@ type(area / 7)
 # such as "Decimal" (more or more precise calculations than float) 
 # and "Fraction" (eg. 3/4 + 7/8 = 13/8). 
 # Python also has built-in support for complex numbers, and uses the j or J suffix to indicate the imaginary part (e.g. 3+5j).
-
-####
-#from fractions import Fraction
-#Fraction(1, 2) + Fraction(7, 8)
-####
 
 # Note: Numbers are immutable (not modifiable), non-subscriptable (non-sliceable), and cannot be concatenated (glued together).
 # Therefore, there is no method for numbers!
@@ -143,8 +138,8 @@ p.upper()
 p.lower()
 p.index('P')
 p.find('P')
-p.index('p')
-p.find('p')
+# p.index('p')
+# p.find('p')
 ','.join(p)
 p.split('t')
 p.replace('P', 'M')
@@ -165,7 +160,7 @@ p
 # ???
 
 p = "Mython"
-p[0] = "P"
+# p[0] = "P"
 # ???
 
 ## Other types
@@ -179,7 +174,7 @@ type(False)
 type(None)
 # <class 'NoneType'>
 
-type(true)
+# type(true)
 # ???
 
 ## Lists
