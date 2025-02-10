@@ -96,7 +96,7 @@ pip uninstall sampleproject
 
 There are two primary ways to use Python:
 
-1. **Interactive Mode:** Open your terminal and type `python` or `python3` to launch the Python interpreter interactively.
+1. **Interactive Mode:** Open your terminal and type `python` or `python3` to launch the Python interpreter interactively. You can exit the interpreter by `Control-D` on Unix, `Control-Z` on Windows or by typing `quit()` command.
 
 2. **Running a Python Script:** Write your Python code in a script file, then execute it from the terminal using:
 
