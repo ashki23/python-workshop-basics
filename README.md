@@ -33,9 +33,9 @@ Download and install Visual Studio Code from [this link](https://code.visualstud
 ## Using Python
 Python can be used in two primary ways:
 
-1. **Interactive Mode:** Open your terminal and type `python` or `python3` to launch the Python interpreter interactively. You can exit the interpreter by pressing `Control-D` on Unix, `Control-Z` on Windows, or by typing `quit()`.
+1. **Interactive Mode:** Open your terminal and type `python` or `python3` to launch the Python interpreter interactively. You can exit the interpreter by pressing `Control-D` on Unix, or by typing `quit()`.
 
-2. **Running a Python Script:** Write your Python code in a script file and execute it from the terminal using:
+2. **Running a Python Script:** Write your Python code in a script file and execute it from the terminal. For instance, to run `script.py` use the following command in the terminal: 
    ```bash
    python3 script.py
    ```
@@ -43,26 +43,14 @@ Python can be used in two primary ways:
 When using IDEs like Jupyter Notebook, you are primarily working in interactive mode. However, for solving larger problems and real-world programming, it is usually more efficient to create a Python script and run it in a dedicated environment, such as on an HPC system or in the cloud (or locally). Typically, this involves creating a virtual environment or a container with the necessary requirements.
 
 ## Python virtual environments
-To run Python projects, it's best practice to create a dedicated virtual environment for each project to manage dependencies. To create a virtual environment (called `.venv`), use the following commands in the terminal:
+To run Python projects, it's best practice to create a dedicated virtual environment for each project to manage dependencies. To create and activate a virtual environment (called `.venv`), use the following commands in the terminal:
 
 ```bash 
-# macOS/Linux
-# You may need to run `sudo apt-get install python3-venv` first on Debian-based OSs
+# Create the virtual environment
 python3 -m venv .venv
 
-# Windows
-# You can also use `py -3 -m venv .venv`
-python -m venv .venv
-```
-
-To actiavte the `.venv` virtual environment use:
-
-```bash
-# macOS/Linux
+# Actiavte the virtual environment
 source .venv/bin/activate
-
-# Windows
-.venv\Scripts\activate
 ```
 
 To remove a virtual environment, either run `rm -rf .venv` in the terminal or manually delete the `.venv` folder from the file explorer.
