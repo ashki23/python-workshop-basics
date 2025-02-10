@@ -18,18 +18,29 @@ In this workshop, we cover the following topics from [The Python Tutorial](https
 9. **Mini-Project**: Practical application of learned concepts.
 
 ## Setup the environment
+**In this workshop, we are using [Colab](https://colab.google), a Jupyter Notebook environment that runs Python in the cloud, so you don't need to install Python locally.** 
 
-### Install Python  
-To install the latest version of Python on your system, follow these instructions:  
+However, if you prefer to set up a local development environment on your computer, you can install Python and VS Code by following the instructions below.
+
+#### Install Python
 - **Linux**: Python is typically preinstalled on most Linux distributions.
-- **Cloud**: Since most cloud platforms run on Linux, Python is typically preinstalled.
 - **macOS**: Follow [section 5.1.1](https://docs.python.org/3/using/mac.html#installation-steps). Alternatively, if you have a package manager like [Homebrew](https://brew.sh), you can use it to install Python. 
 - **Windows**: Refer to [section 4.1.1](https://docs.python.org/3/using/windows.html#installation-steps) in the Python documentation. Be sure to check the option "Add Python to PATH" during installation. Alternatively, if you have [WSL](https://learn.microsoft.com/en-us/windows/wsl/about) installed, you can use Python in WSL. 
 
-### Install Visual Studio Code  
-Download and install Visual Studio Code from [this link](https://code.visualstudio.com/Download). We are using VS Code as an integrated development environment (IDE) to create scripts, execute terminal commands, and manage files all in one place.
+#### Install Visual Studio Code  
+Download and install Visual Studio Code from [this link](https://code.visualstudio.com/Download). We are using VS Code as an integrated development environment (IDE) to create scripts, execute terminal commands, and manage files all in one place. We can also have Jupyter Notebooks (see [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)) and manage virtual environments (see [here](https://code.visualstudio.com/docs/python/environments#_using-the-create-environment-command)) in VS Code.
 
-If you choose to run your Python code on a Linux terminal or cloud services like GCP or AWS, installing VS Code is unnecessary. Instead, you should be familiar with a terminal-based text editor like Nano, Emacs, or Vim.
+## Using Python
+Python can be used in two primary ways:
+
+1. **Interactive Mode:** Open your terminal and type `python` or `python3` to launch the Python interpreter interactively. You can exit the interpreter by pressing `Control-D` on Unix, `Control-Z` on Windows, or by typing `quit()`.
+
+2. **Running a Python Script:** Write your Python code in a script file and execute it from the terminal using:
+   ```bash
+   python3 script.py
+   ```
+
+When using IDEs like Jupyter Notebook, you are primarily working in interactive mode. However, for solving larger problems and real-world programming, it is usually more efficient to create a Python script and run it in a dedicated environment, such as on an HPC system or in the cloud (or locally). Typically, this involves creating a virtual environment or a container with the necessary requirements.
 
 ## Python virtual environments
 To run Python projects, it's best practice to create a dedicated virtual environment for each project to manage dependencies. To create a virtual environment (called `.venv`), use the following commands in the terminal:
@@ -54,7 +65,7 @@ source .venv/bin/activate
 .venv\Scripts\activate
 ```
 
-Alternatively, you can use VS Code to create and activate the virtual environments (see [here](https://code.visualstudio.com/docs/python/environments)). To remove a virtual environment, either run `rm -rf .venv` in the terminal or manually delete the `.venv` folder from the file explorer.
+To remove a virtual environment, either run `rm -rf .venv` in the terminal or manually delete the `.venv` folder from the file explorer.
 
 After activating the environment, we can use the `pip` package manager to manage Python packages. The following commands can be used in the terminal to install, upgrade, or uninstall packages:
 
@@ -91,15 +102,3 @@ pip install sampleproject
 # Uninstall
 pip uninstall sampleproject
 ```
-
-## Using Python
-
-There are two primary ways to use Python:
-
-1. **Interactive Mode:** Open your terminal and type `python` or `python3` to launch the Python interpreter interactively. You can exit the interpreter by `Control-D` on Unix, `Control-Z` on Windows or by typing `quit()` command.
-
-2. **Running a Python Script:** Write your Python code in a script file, then execute it from the terminal using:
-
-   ```bash
-   python3 script.py
-   ```
