@@ -28,7 +28,7 @@ However, if you prefer to set up a local development environment on your compute
 - **Windows**: Refer to [section 4.1.1](https://docs.python.org/3/using/windows.html#installation-steps) in the Python documentation. Be sure to check the option "Add Python to PATH" during installation. Alternatively, if you have [WSL](https://learn.microsoft.com/en-us/windows/wsl/about) installed, you can use Python in WSL. 
 
 #### Install Visual Studio Code  
-Download and install Visual Studio Code from [this link](https://code.visualstudio.com/Download). We are using VS Code as an integrated development environment (IDE) to create scripts, execute terminal commands, and manage files all in one place. We can also have Jupyter Notebooks (see [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)) and manage virtual environments (see [here](https://code.visualstudio.com/docs/python/environments#_using-the-create-environment-command)) in VS Code.
+Download and install Visual Studio Code from [this link](https://code.visualstudio.com/Download). We are using VS Code as an integrated development environment (IDE) to create scripts, execute terminal commands, and manage files all in one place. We can also have Jupyter Notebooks in VS Code (see [here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)).
 
 ## Using Python
 Python can be used in two primary ways:
@@ -42,20 +42,21 @@ Python can be used in two primary ways:
 
 When using IDEs like Jupyter Notebook, you are primarily working in interactive mode. However, for solving larger problems and real-world programming, it is usually more efficient to create a Python script and run it in a dedicated environment, such as on an HPC system or in the cloud (or locally). Typically, this involves creating a virtual environment or a container with the necessary requirements.
 
-## Python virtual environments
-To run Python projects, it's best practice to create a dedicated virtual environment for each project to manage dependencies. To create and activate a virtual environment (called `.venv`), use the following commands in the terminal:
+## Packages
+To run Python projects locally, it's best practice to create a dedicated virtual environment for each project to manage dependencies. To create and activate a virtual environment (called `.venv`), use the following commands in the terminal:
 
 ```bash 
 # Create the virtual environment
+# You may need to run `sudo apt-get install python3-venv` first on Debian-based OSs
 python3 -m venv .venv
 
 # Actiavte the virtual environment
 source .venv/bin/activate
 ```
 
-To remove a virtual environment, either run `rm -rf .venv` in the terminal or manually delete the `.venv` folder from the file explorer.
+Alternatively, you can use VS Code to manage virtual environments (see [here](https://code.visualstudio.com/docs/python/environments#_using-the-create-environment-command)). To remove a virtual environment, either run `rm -rf .venv` in the terminal or manually delete the `.venv` folder from the file explorer.
 
-After activating the environment, we can use the `pip` package manager to manage Python packages. The following commands can be used in the terminal to install, upgrade, or uninstall packages:
+We can use the `pip` package manager to manage Python packages. The following commands can be used in the terminal to install, upgrade, or uninstall packages:
 
 ```bash
 # Install a package
