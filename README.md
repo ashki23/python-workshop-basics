@@ -14,7 +14,7 @@ In this workshop, we cover the following topics from [The Python Tutorial](https
 5. **Data Structures**: Lists, dictionaries, tuples, and sets (section [5](https://docs.python.org/3/tutorial/datastructures.html)).
 6. **Modules**: Import modules from the standard library, installed packages, or custom Python scripts (section [6](https://docs.python.org/3/tutorial/modules.html)).
 7. **Input and Output**: Print, f-strings, strings, open, read and write functions (section [7](https://docs.python.org/3/tutorial/inputoutput.html)).
-8. **Generative AI**: A brief introduction to leveraging AI tools like ChatGPT to assist with coding and problem-solving.  
+8. **Generative AI**: A brief introduction to leveraging AI tools like [ChatGPT](https://chatgpt.com) or [GitHub Copilot](https://github.com/features/copilot/tutorials) to assist with coding and problem-solving.  
 9. **Mini-Project**: Practical application of learned concepts.
 
 ## Setup the environment
