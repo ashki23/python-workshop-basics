@@ -17,6 +17,8 @@ In this workshop, we cover the following topics from [The Python Tutorial](https
 8. **Generative AI**: A brief introduction to leveraging AI tools like [ChatGPT](https://chatgpt.com) or [GitHub Copilot](https://github.com/features/copilot/tutorials) to assist with coding and problem-solving.  
 9. **Mini-Project**: Practical application of learned concepts.
 
+📚 **You can access the workshop content [here](https://github.com/ashki23/python-workshop-basics/blob/main/python_workshop_basics.ipynb).**
+
 ## Setup the environment
 **In this workshop, we are using [Colab](https://colab.google), a Jupyter Notebook environment that runs Python in the cloud, so you don't need to install Python locally.** 
 
