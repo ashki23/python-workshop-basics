@@ -4,8 +4,6 @@
 
 The workshop is designed to introduce the fundamentals of Python programming in an engaging and interactive way. Participants will learn key concepts such as variables, data types, basic operations, and control flow structures like loops and conditional statements. They will also explore essential data structures such as lists and dictionaries, and understand how to write reusable code using functions. The workshop includes hands-on exercises and a mini-project. By the end of the session, participnets will have the foundational skills to start coding confidently and continue exploring Python independently.
 
-### **Main topics** 
-
 ## Session 1: Basics Python Programming
 In this workshop, we cover the following topics from [The Python Tutorial](https://docs.python.org/3/tutorial/index.html).
 
