@@ -4,7 +4,7 @@
 
 The workshop is designed to introduce the fundamentals of Python programming in an engaging and interactive way. Participants will learn key concepts such as variables, data types, basic operations, and control flow structures like loops and conditional statements. They will also explore essential data structures such as lists and dictionaries, and understand how to write reusable code using functions. The workshop includes hands-on exercises and a mini-project. By the end of the session, participants will have the foundational skills to start coding confidently and continue exploring Python independently.
 
-### Workshop Materials:
+#### Workshop Materials:
 You can find the workshop materials in the following Jupyter notebooks in this repository:
 - [Session 1: Python Programming Basics](https://github.com/ashki23/python-workshop-basics/blob/main/python_workshop_basics_1.ipynb)
 - [Session 2: Data Analysis Basics](https://github.com/ashki23/python-workshop-basics/blob/main/python_workshop_basics_2.ipynb)
