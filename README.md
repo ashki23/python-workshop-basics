@@ -4,6 +4,11 @@
 
 The workshop is designed to introduce the fundamentals of Python programming in an engaging and interactive way. Participants will learn key concepts such as variables, data types, basic operations, and control flow structures like loops and conditional statements. They will also explore essential data structures such as lists and dictionaries, and understand how to write reusable code using functions. The workshop includes hands-on exercises and a mini-project. By the end of the session, participants will have the foundational skills to start coding confidently and continue exploring Python independently.
 
+### Workshop Materials:
+You can find the workshop materials in the following Jupyter notebooks in this repository:
+- [Session 1: Python Programming Basics](https://github.com/ashki23/python-workshop-basics/blob/main/python_workshop_basics_1.ipynb)
+- [Session 2: Data Analysis Basics](https://github.com/ashki23/python-workshop-basics/blob/main/python_workshop_basics_2.ipynb)
+
 ## Session 1: Python Programming Basics
 In this session, we cover the following topics from [The Python Tutorial](https://docs.python.org/3/tutorial/index.html).
 
@@ -26,7 +31,7 @@ The second notebook extends the first session with real-world data analysis usin
 - **Mini-Project**: Iris dataset analysis with groupby, filtering, and visualization.
 
 ## Setup the environment
-**In this workshop, we are using [Colab](https://colab.google), a Jupyter Notebook environment that runs Python in the cloud, so you don't need to install Python locally.** 
+**For this workshop, we primarily use [Colab](https://colab.research.google.com/), a free, cloud-based Jupyter Notebook environment that runs Python directly in your browser — no local installation required!** 
 
 However, if you prefer to set up a local development environment on your computer, you can install Python and VS Code by following the instructions below.
 
